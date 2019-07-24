@@ -1,4 +1,76 @@
 
 body {
-  background-color: #e8e8e8;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.prof-pic {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.cp-pic {
+  height: 10rem;
+  width: 10rem;
+}
+
+.skill-row {
+  margin: 4rem 0 4rem 0
+}
+
+.top-container {
+  background-color: #e0ffff;
+  position: relative;
+  padding-top: 100px;
+  font-size: 2.5rem;
+}
+
+.middle-container {
+  margin: 4% 0 0 0
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  bottom: 8em;
+}
+
+.footer-icon {
+  height: 3%;
+  width: 3%;
+  margin: 0 1% 0 1%;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-family: 'Courgette', cursive;
+  margin: 0 auto 2% auto;
+}
+
+.subhi {
+  margin: 0 auto 4% auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
