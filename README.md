@@ -5,7 +5,7 @@ Codes I developed for the "The Complete 2019 Web Development Bootcamp" class at 
 [https://amb-lucas.github.io/Web-Development-Course/HTML/Website]
 
 # CSS
-https://amb-lucas.github.io/Web-Development-Course/CSS/Website
+[https://amb-lucas.github.io/Web-Development-Course/CSS/Website]
 
 # Bootstrap
-https://amb-lucas.github.io/Web-Development-Course/Bootstrap/TinDog
+[https://amb-lucas.github.io/Web-Development-Course/Bootstrap/TinDog]
