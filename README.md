@@ -10,5 +10,8 @@ Codes I developed for the "The Complete 2019 Web Development Bootcamp" class at 
 # Bootstrap
 <https://amb-lucas.github.io/Web-Development-Course/Bootstrap/TinDog>
 
-# DOM (Dicee)
+# DOM 1: Dicee
 <https://amb-lucas.github.io/Web-Development-Course/DOM/Dicee/dicee.html>
+
+# DOM 2: Drums
+<https://amb-lucas.github.io/Web-Development-Course/DOM/Drum>
