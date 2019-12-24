@@ -1,22 +1,34 @@
 
-document.addEventListener("keydown", handlePress);
+document.addEventListener("keydown", function(event) {
+  handleButton(event.key);
+});
 
 var buttons = document.querySelectorAll(".drum");
 for(var i=0; i<buttons.length; i++){
-  buttons[i].addEventListener("click", handleClick);
+  buttons[i].addEventListener("click", function() {
+    handleButton(this.innerText);
+  });
 }
 
-function handlePress(event) {
-  makeSound(event.key);
-}
-
-function handleClick() {
-  makeSound(this.innerText);
+function handleButton(key){
+  key = key.toLowerCase();
+  if(key in sound){
+    makeSound(key);
+    makeAnimation(key);
+  }
 }
 
 function makeSound(key){
   audio = new Audio(sound[key.toLowerCase()]);
   audio.play();
+}
+
+function makeAnimation(key){
+  button = document.querySelector("." + key);
+  button.classList.add("pressed");
+  setTimeout(function() {
+    button.classList.remove("pressed");
+  }, 100);
 }
 
 sound = {
