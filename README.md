@@ -11,4 +11,4 @@ Codes I developed for the "The Complete 2019 Web Development Bootcamp" class at 
 <https://amb-lucas.github.io/Web-Development-Course/Bootstrap/TinDog>
 
 # DOM (Dicee)
-<https://amb-lucas.github.io/Web-Development-Course/DOM/dicee.html>
+<https://amb-lucas.github.io/Web-Development-Course/DOM/Dicee/dicee.html>
