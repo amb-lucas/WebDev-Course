@@ -1,22 +1,26 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 
+const date = require(__dirname + "/date.js");
+
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
+
+app.set("view engine", "ejs");
+
+let items = [];
+
 app.get("/", (req, res) => {
-  const currentDay = new Date().getDay();
+  const day = date.getDay();
+  res.render("list", { listTitle: day, items });
+});
 
-  if (currentDay === 0 || currentDay === 6) {
-    res.write("<h1>Yay! :D</h1>");
-    res.write("It's the weekend!");
-    res.write("<p>Don't you love it too?</p>");
-  } else {
-    res.write("<h1>Boo! :(</h1>");
-    res.write("<h2>It's a weekday...</h2>");
-    res.write("<p>Kinda sad we don't get to play around :/</p>");
-  }
-
-  res.send();
+app.post("/", (req, res) => {
+  const item = req.body.newItem;
+  items.push(item);
+  res.redirect("/");
 });
 
 app.listen(3000, () => {
