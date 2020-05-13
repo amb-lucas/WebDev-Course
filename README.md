@@ -1,20 +1,20 @@
-# Web-Development-Course
-Codes I developed for the "The Complete 2019 Web Development Bootcamp" class at Udemy
+# Sample Projects
+Some of the projects I developed for the "The Complete 2019 Web Development Bootcamp" class at Udemy
 
 # HTML
-<https://amb-lucas.github.io/Web-Development-Course/HTML/Website>
+<https://amb-lucas.github.io/WebDev-Course/HTML/Website>
 
 # CSS
-<https://amb-lucas.github.io/Web-Development-Course/CSS/Website>
+<https://amb-lucas.github.io/WebDev-Course/CSS/Website>
 
 # Bootstrap
-<https://amb-lucas.github.io/Web-Development-Course/Bootstrap/TinDog>
+<https://amb-lucas.github.io/WebDev-Course/Bootstrap/TinDog>
 
 # DOM 1: Dicee
-<https://amb-lucas.github.io/Web-Development-Course/DOM/Dicee/dicee.html>
+<https://amb-lucas.github.io/WebDev-Course/DOM/Dicee/dicee.html>
 
 # DOM 2: Drums
-<https://amb-lucas.github.io/Web-Development-Course/DOM/Drum>
+<https://amb-lucas.github.io/WebDev-Course/DOM/Drum>
 
-# Express Server
-<https://amb-lucas.github.io/Web-Development-Course/Express/Calculator>
+# jQuery
+<https://amb-lucas.github.io/WebDev-Course/Simon>
