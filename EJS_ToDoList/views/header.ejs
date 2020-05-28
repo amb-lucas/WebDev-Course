@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Daily Journal</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <p class="navbar-brand">DAILY JOURNAL</p>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li id="home"><a href="/Today">TODAY'S LIST</a></li>
+          <li>
+            <form id="goToList" action="/to-list" method="post">
+              <input id="toList" type="text" name="listName" placeholder="Go to List" pattern="[A-Za-z]{1,}" title="Only letters allowed" class="toList"></input>
+              <button type="submit" form="goToList">></button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <body style="background-color: transparent;">
+      <div class="container"></div>
+    </body>
+  </head>
+</html>
